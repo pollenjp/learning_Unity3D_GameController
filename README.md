@@ -3,6 +3,10 @@
 
 ## Assets
 - Standard Assets
+	- Character
+		- ThirdPersonCharacter
+			- Prefabs
+				- ThirdPersonController
 - [Controller Tester](https://assetstore.unity.com/packages/tools/input-management/controller-tester-43621?aid=1101l3qAY&utm_source=aff)
 
 
