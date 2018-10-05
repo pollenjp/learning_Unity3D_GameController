@@ -12,4 +12,5 @@
 
 ## Reference
 - [【Unity】Input Managerの使い方まとめ。PS3やPS4のコントローラの入力を取得しよう - おもちゃラボ](http://nn-hokuson.hatenablog.com/entry/2017/11/20/211617)
+- [Unityインターハイ公式ブログ » ゲームパッドでUnityのゲームを動かそう のコメントのフィード](http://inter-high-blog.unity3d.jp/2017/07/04/gamepad/)
 
