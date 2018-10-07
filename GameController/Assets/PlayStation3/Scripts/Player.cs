@@ -42,7 +42,7 @@ public class Player : MonoBehaviour {
             rb.MovePosition(transform.position + new Vector3(x, 0, z));
 
             //ユニティちゃんの最新の位置から少し前の位置を引いて方向を割り出す
-            Vector3 direction = transform.position - playerPos; 
+            Vector3 direction = new Vector3(x, 0, z); 
 
             //移動距離が少しでもあった場合に方向転換
             if (direction.magnitude > 0.01f) 
@@ -51,12 +51,12 @@ public class Player : MonoBehaviour {
                 transform.rotation = Quaternion.LookRotation(new Vector3
                     (direction.x, 0, direction.z));
                 //走るアニメーションを再生
-                animator.SetBool("Running", true);
+                animator.SetBool("is_running", true);
             }
             else
             {
                 //ベクトルの長さがない＝移動していない時は走るアニメーションはオフ
-                animator.SetBool("Running", false);
+                animator.SetBool("is_running", false);
             }
 
             //ユニティちゃんの位置を更新する
